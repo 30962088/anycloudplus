@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="admin" location="0,0" size="0,0">
+    <action name="image" location="0,0" size="0,0">
+      <result name="add">
+        <resourceEdge source="add" routing="0" target="image_add.jsp" />
+      </result>
+    </action>
+    <action name="cooperation" location="0,0" size="0,0">
+      <result name="loadAll">
+        <resourceEdge source="loadAll" routing="0" target="coo.jsp" />
+      </result>
+      <result name="chainLoadAll" />
+      <result name="load">
+        <resourceEdge source="load" routing="0" target="coo_update.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="index.jsp" path="/index.jsp" location="4265,1115" size="150,55" />
+  <webResource name="zhejiu.jsp" path="/zhejiu.jsp" location="0,0" size="0,0" />
+  <webResource name="coo.jsp" path="coo.jsp" location="0,0" size="0,0" />
+  <webResource name="coo_update.jsp" path="coo_update.jsp" location="0,0" size="0,0" />
+  <webResource name="image_add.jsp" path="image_add.jsp" location="0,0" size="0,0" />
+</Struts2Diagram>
+
